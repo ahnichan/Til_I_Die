@@ -19,6 +19,8 @@ public class TIL0112 {
       const searchTerm = url.searchParams.get("q");
       return searchProducts(searchTerm);
       }
+    *
+    * 이곳 API들은 react router의 api가 아니라 표준 웹 object인 Request, URL, URLSearchParams
     * */
 }
 
